@@ -7,7 +7,7 @@
     <p> Password:</br> <%= f.password_field :password%></p>
     <p> Password Confirmation:</br> <%= f.password_field :password_confirmation%> </p>
     <%= f.submit :Signup %>
-  <% end %>
+  <% end   %>
   <% if !flash.empty? %>
     <div id="flash"> 
         <% flash.keys.each do |k| %> 
